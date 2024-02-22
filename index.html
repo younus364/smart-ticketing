@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="raleway">
+    <header class="container mx-auto">
+        <!-- navbar -->
+        <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost font-extrabold text-xl">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end ">
+                <a class="btn btn-ghost text-xl  bg-[#1DD100cc]">Bus
+                    <img src="./images/bus-icon.png" alt="">
+                </a>
+              
+            </div>
+          </div>
+        </nav>
+
+    </header>
+    <main  class="container mx-auto">
+        <!-- banner section -->
+        <section >
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <span class="text-[#1DD100]"> P Paribahan</span></h1>
+                    <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                    <button class="btn  bg-[#1DD100]">Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+      <section>
+        
+            <h3>Select Your Seat</h3>
+            <hr class="border-dashed">
+        <div class="flex justify-between px-4">
+        <div class="flex gap-2">
+            <img src="./images/seat-gray.png" alt="">
+            <h4>Available</h4>
+        </div>
+        <div class="flex gap-2">
+            <img src="./images/seat-green-filled.png" alt="">
+            <h4>Selected</h4>
+        </div>
+        </div>
+        <hr class="border-dashed">
+        <div class="bg-[url('/img/hero-pattern.svg')]">
+            
+          </div>
+          <div class="grid grid-cols-2 gap-6 justify-between">
+        <div  onclick=""  id="idol"class="grid grid-cols-5 gap-2 ">
+          
+           
+              <button disabled>A</button><div id="A1" class="seat ">A1</div>
+            <div id="A2" disabled  class="seat">A2</div>
+            <div id="A3" class="seat">A3</div>
+            <div id="A4" class="seat">A4</div>
+            <button disabled>B</button><div id="B1" class="seat">B1</div>
+            <div id="B2"class="seat">B2</div>
+            <div id="B3" class="seat">B3</div>
+            <div id="B4" class="seat">B4</div>
+            <button disabled>C</button><div id="C1" class="seat">C1</div>
+            <div id="C2" class="seat">C2</div>
+            <div id="C3" class="seat">C3</div>
+            <div id="C4" class="seat">C4</div>
+            <button disabled>D</button><div id="D1" class="seat">D1</div>
+            <div id="D2" class="seat">D2</div>
+            <div id="D3" class="seat">D3</div>
+            <div id="D4" class="seat">D4</div>
+            <button disabled>E</button><div id="E1" class="seat">E1</div>
+            <div id="E2" class="seat">E2</div>
+            <div id="E3" class="seat">E3</div>
+            <div id="E4" class="seat">E4</div>
+            <button disabled>F</button><div id="F1" class="seat">F1</div>
+            <div id="F2" class="seat">F2</div>
+            <div id="F3" class="seat">F3</div>
+            <div id="F4" class="seat">F4</div>
+            <button disabled>G</button><div id="G1" class="seat">G1</div>
+            <div id="G2" class="seat">G2</div>
+            <div id="G3" class="seat">G3</div>
+            <div id="G4" class="seat">G4</div>
+            <button disabled>H</button><div id="H1" class="seat">H1</div>
+            <div id="H2" class="seat">H2</div>
+            <div id="H3" class="seat">H3</div>
+            <div id="H4" class="seat">H4</div>
+            <button disabled>I</button> <div id="I1" class=seat ">I1</div>
+            <div id="I2" class="seat">I2</div>
+            <div id="I3" class="seat">I3</div>
+            <div id="I4" class="seat">I4</div>
+            <button disabled>J</button><div id="J1" class="seat">J1</div>
+            <div id="J2" class="seat">J2</div>
+            <div id="J3" class="seat">J3</div>
+            <div id="J4" class="seat">J4</div>
+           
+           
+        </div>
+        <div>
+            <h3>Select Your Seat</h3>
+            <hr class="border-dashed ">
+            <div class="grid grid-cols-3 ">
+                <!-- Select Your Seat and total ammount -->
+                <div>Seat</div>
+                <div>Class</div>
+                <div>Price</div>
+                <hr class="border-dashed py-4"><hr class="border-dashed py-4"><hr class="border-dashed py-4">
+                <div>C1</div>
+                <div>Economoy</div>
+                <div>550</div>
+                
+                <div>C2</div>
+                <div>Economoy</div>
+                <div>550</div>
+            </div>
+            <hr>
+            <div class="flex justify-between py-4">
+                <h3>Total Price</h3>
+                <h3>BDT <span  id="ammount-of-ticket">0</span></h3>
+                
+            </div>
+           
+            <!-- input a cupon and discount -->
+            <div>
+               <div class="flex">
+                <p class="text-xl lg:text-2xl my-2  font-medium">Discount: <span class="text-[#989898]"><span id="discount">0.00</span>Tk</span></p>
+                <p class="text-xl lg:text-2xl my-2  font-medium">Total <span class="text-[#989898]"><span id="total">0.00</span>Tk</span></p>
+               </div>
+                
+            <input id="cupon-bar" class="input mb-5 w-28 lg:w-9/12 input-bordered join-item" placeholder="Have any copupon?"/>
+            <button onclick="cuponClicke()"  id="cupon-btn" disabled class="btn text-white px-8 bg-[#1DD100] join-item ">Apply</button>
+          </div>
+
+        
+        <div class="flex justify-between py-4">
+            <h3>Grand Total</h3>
+            <h3>BDT <span id="bdt-totalDiscount">0</span></h3>
+        </div>
+        <h3 class="py-3">Passenger Name*</h3>
+        <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+        <h3 class="py-3">Phone Number*</h3>
+        <input type="number" onclick=" removeAllSection()" id="bt-Number" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
+        <h3 class="py-3">Email ID</h3>
+        <input type="text" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs pb-4" />
+       <div class="py-5"> <button id="btnt"  class="btn w-full bg-[#1DD100]  ">Button</button></div>
+        <div class="flex justify-evenly ">
+            <p>Terms and Conditions</p>
+            <p>Cancellation Policy</p>
+           
+        </div>
+        </div>
+    </div>
+        <div></div>
+      </section>
+    </main>
+    <script src="ticket/click-ticket.js"></script>
+ 
+    
+</body>
+</html>
